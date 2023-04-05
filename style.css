@@ -1,0 +1,415 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: 0;
+}
+
+.logo {
+    height: 5em;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 15px;
+}
+
+.a-navl {
+    color: gray;
+}
+
+.navl1 {
+    padding: 2px;
+    flex: 50%;
+}
+
+.navl2 {
+    padding: 2px;
+    flex: 50%;
+}
+
+.navl3 {
+    padding: 2px;
+    flex: 50%;
+}
+
+.navl4 {
+    padding: 2px;
+    flex: 50%;
+}
+
+@media (max-width: 900px) {
+    .navbar {flex-direction: column;}
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color:midnightblue;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+#sezione-uno {
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/Cicerone.jpg');
+    text-align: center;
+    padding: 100px;
+}
+
+.dentro-unot {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.dentro-unot2 {
+    color: white;
+    margin-bottom: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.dentro-unob {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 17px 25px 13px 25px;
+    display: inline-block;
+    color: white;
+    background-color: #919191ba;
+}
+
+.dentro-unob:hover {
+    border-color: darkblue;
+}
+
+#sezione-due {
+    min-height: 8vh;
+    padding: 30px;
+    width: auto;
+    background-color: aliceblue;
+}
+
+.dentro-due {
+    margin: 0px;
+    text-align:justify;
+}
+
+/*#sezione-tre {}*/
+
+.dentro-tre {
+    text-align: center;
+    padding: 1em;
+}
+
+.aree {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 20px 20px 5px 20px;
+}
+
+.h3-top {margin-bottom: 0}
+.h3-bot {margin-top: 0}
+
+.a1 {
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    flex: 50%;
+}
+
+.a2 {
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    margin: auto 20px auto 20px;
+    flex: 50%;
+}
+
+.a3 {
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    flex: 50%;
+}
+
+.a4 {
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    flex: 50%;
+}
+
+.a5 {
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    margin: auto 20px auto 20px;
+    flex: 50%;
+}
+
+.a6 {
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    flex: 50%;
+}
+
+.a7 {
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    flex: 50%;
+}
+
+.a8 {
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    margin: auto 20px 20px 20px;
+    flex: 50%;
+}
+
+
+.a9 {
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    flex: 50%;
+}
+
+@media (max-width: 900px) {
+
+    .aree {
+        flex-direction: column;
+    }
+
+    .a2 {
+        margin: 20px 0px 20px 0px;
+        padding: 1px;
+        flex: 50%;
+    }
+
+    .a5 {
+        margin: 20px 0px 20px 0px;
+        padding: 1px;
+        flex: 50%;
+    }
+
+    .a8 {
+        margin: 2px 0px 20px 0px;
+        padding: 1px;
+        flex: 50%;
+    }
+}
+
+#sezione-quattro {
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1600856506316-db98a9808c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    text-align: center;
+    padding: 35px 100px;
+    color: white;
+}
+
+.dentro-quattrot {
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.dentro-quattrost {
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#sezione-cinque {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 20px;
+}
+
+.cinque-logo {
+    padding: 15px;
+    flex: 50%;
+}
+
+.logo-cinque {
+    width: 18em;
+    text-align: center;
+    justify-content: center;
+}
+
+.cinque-contatti {
+    padding: 15px;
+    flex: 50%;
+}
+
+.cinque-aree {
+    padding: 15px;
+    flex: 50%;
+}
+
+.m-dp {color: gray;}
+
+@media (max-width: 900px) {
+    #sezione-cinque {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+#piedipagina {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    text-align: center;
+    box-shadow: 0px 0px 2px 0px gray;
+    color: gray;
+}
+
+@media (max-width: 900px) {
+    .dentro-pie {
+        padding: 3px;
+    }
+}
+
+/*Profili Professionali*/
+
+#sezione-uno-p {
+    background-color: aliceblue;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.img-profilo {
+    height: 20em;
+    padding-right: 2em;
+}
+
+.profilo {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+    .profilo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-profilo {
+        padding-left: 3em;
+    }
+
+    .h2-p {
+        margin-top: 0;
+      }
+}
+
+/*Materie Trattate*/
+
+.d-p{
+    text-align: center;
+    color: gray;
+}
+
+/*Contatti*/
+
+#sezione-cont {
+    background-color: aliceblue;
+}
+
+.dentro-cont {
+    text-align: center;
+}
+
+.mappe {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 20px 20px 5px 20px;
+}
+
+.m1 {
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    margin: auto 20px auto 20px;
+    flex: 50%;
+}
+
+.m2 {
+    background-size: cover;
+    background-position: center;
+    background-color: aliceblue;
+    margin: auto 20px auto 20px;
+    flex: 50%;
+}
+
+.img-mappe {
+    height: 25em;
+    flex: 50%;
+}
+
+@media (max-width: 900px) {
+
+    .mappe {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-mappe {height: 13em;}
+
+    .m1 {margin-bottom: 3em}
+
+}
+
+/*materie*/
+
+#sezione-m {
+    background-color: aliceblue;
+}
+
+.sezione-m {
+    margin: 45px;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.h2-m{text-align: left}
+
+.sezione-m-lista {
+    margin: 45px;
+    text-align: left;
+}
+
+/*Diritto Tributario*/
+
+.sezione-mh4 {
+    margin: 45px;
+    text-align: justify;
+    font-size: 19px;
+}
