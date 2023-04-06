@@ -359,7 +359,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-color: aliceblue;
-    margin: auto 20px auto 20px;
+    margin: 10em;
     flex: 50%;
 }
 
@@ -367,7 +367,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-color: aliceblue;
-    margin: auto 20px auto 20px;
+    margin: 10em;
     flex: 50%;
 }
 
