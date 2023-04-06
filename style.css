@@ -372,9 +372,8 @@ a:hover {
 }
 
 .img-mappe {
-    height: 25em;
+    height: 23em;
     flex: 50%;
-    margin: 3em;
 }
 
 @media (max-width: 900px) {
