@@ -4,6 +4,8 @@ body {
     margin: 0;
 }
 
+#main {width: 100%}
+
 .logo {
     height: 5em;
     text-align: center;
