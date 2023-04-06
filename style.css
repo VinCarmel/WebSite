@@ -374,6 +374,7 @@ a:hover {
 .img-mappe {
     height: 25em;
     flex: 50%;
+    margin: 3em;
 }
 
 @media (max-width: 900px) {
@@ -383,7 +384,7 @@ a:hover {
         justify-content: center;
     }
 
-    .img-mappe {height: 13em;}
+    .img-mappe {height: 13em}
 
     .m1 {margin-bottom: 3em}
 
