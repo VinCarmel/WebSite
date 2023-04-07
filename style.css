@@ -365,7 +365,7 @@ a:hover {
 }
 
 .img-mappe {
-    height: 20em;
+    width:100%;
     flex: 50%;
 }
 
@@ -375,8 +375,6 @@ a:hover {
         flex-direction: column;
         justify-content: center;
     }
-
-    .img-mappe {height: 13em}
 
     .m1 {margin-bottom: 3em}
 
