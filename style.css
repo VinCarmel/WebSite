@@ -290,7 +290,7 @@ a:hover {
 
 /*Profili Professionali*/
 
-#sezione-uno-p {
+#sezione-profili {
     background-color: aliceblue;
     margin-top: 2em;
     padding: 1em;
@@ -301,6 +301,8 @@ a:hover {
     padding-right: 2em;
 }
 
+.h2-p {margin-top: 0;}
+
 .profilo {
     display: flex;
     flex-wrap: nowrap;
@@ -310,18 +312,11 @@ a:hover {
 }
 
 @media (max-width: 900px) {
-    .profilo {
-        flex-direction: column;
-        justify-content: center;
-    }
+    .profilo {flex-direction: column; justify-content: center;}
 
-    .img-profilo {
-        padding-left: 3em;
-    }
+    .img-profilo {margin: 0 auto; padding-right: 0;}
 
-    .h2-p {
-        margin-top: 0;
-      }
+    .h2-p {margin-top: 1em;}
 }
 
 /*Materie Trattate*/
