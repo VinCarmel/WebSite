@@ -262,6 +262,7 @@ a:hover {
 
 .logo-cinque {
     width: 288px;
+    width: auto;
     text-align: center;
     justify-content: center;
 }
