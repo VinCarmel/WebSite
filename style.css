@@ -25,29 +25,33 @@ body {
 .navl1 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .navl2 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .navl3 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .navl4 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 @media (max-width: 900px) {
     .navbar {flex-direction: column;}
+    .navl1 {font-size: 23px;}
+    .navl2 {font-size: 23px;}
+    .navl3 {font-size: 23px;}
+    .navl4 {font-size: 23px;}
 }
 
 a {
