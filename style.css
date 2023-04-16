@@ -48,10 +48,10 @@ body {
 
 @media (max-width: 900px) {
     .navbar {flex-direction: column;}
-    .navl1 {font-size: 23px;}
-    .navl2 {font-size: 23px;}
-    .navl3 {font-size: 23px;}
-    .navl4 {font-size: 23px;}
+    .navl1 {font-size: 22px;}
+    .navl2 {font-size: 22px;}
+    .navl3 {font-size: 22px;}
+    .navl4 {font-size: 22px;}
 }
 
 a {
