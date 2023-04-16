@@ -19,26 +19,26 @@ body {
 }
 
 .a-navl {
-    color: gray;
+    color: #333333;
 }
 
 .navl1 {
-    padding: 2px;
+    padding: 3px;
     flex: 50%;
 }
 
 .navl2 {
-    padding: 2px;
+    padding: 3px;
     flex: 50%;
 }
 
 .navl3 {
-    padding: 2px;
+    padding: 3px;
     flex: 50%;
 }
 
 .navl4 {
-    padding: 2px;
+    padding: 3px;
     flex: 50%;
 }
 
