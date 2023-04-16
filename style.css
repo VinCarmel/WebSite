@@ -25,25 +25,25 @@ body {
 .navl1 {
     padding: 3px;
     flex: 50%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .navl2 {
     padding: 3px;
     flex: 50%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .navl3 {
     padding: 3px;
     flex: 50%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .navl4 {
     padding: 3px;
     flex: 50%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 @media (max-width: 900px) {
@@ -274,7 +274,7 @@ a:hover {
     flex: 50%;
 }
 
-.m-dp {color: gray;}
+.m-dp {color: #404040;}
 
 @media (max-width: 900px) {
     #sezione-cinque {
@@ -289,7 +289,7 @@ a:hover {
     text-align: center;
     padding: 3px;
     box-shadow: 0px 0px 2px 0px gray;
-    color: gray;
+    color: #404040;
 }
 
 /*Profili Professionali*/
