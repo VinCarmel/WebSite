@@ -7,8 +7,7 @@ body {
 #main {width: 100%}
 
 .logo {
-    height: 80px;
-    width: auto;
+    height: 5em;
     text-align: center;
 }
 
@@ -261,8 +260,7 @@ a:hover {
 }
 
 .logo-cinque {
-    width: 288px;
-    width: auto;
+    width: 18em;
     text-align: center;
     justify-content: center;
 }
