@@ -25,25 +25,25 @@ body {
 .navl1 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .navl2 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .navl3 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .navl4 {
     padding: 3px;
     flex: 50%;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 @media (max-width: 900px) {
