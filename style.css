@@ -82,10 +82,18 @@ a:hover {
 
 .dentro-unot2 {
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 25px;
+}
+
+.dentro-unost2 {
+    color: white;
+    margin: 5px auto 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 17px;
 }
 
 .dentro-unob {
@@ -237,33 +245,9 @@ a:hover {
 }
 
 .dentro-quattrot {
-    margin-bottom: 5px;
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 25px;
-}
-
-.dentro-quattrost {
-    margin: 5px 0 70px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 18px;
-    display: inline-block;
-}
-
-.dentro-quattroc {
-    margin-bottom: 5px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 20px;
-}
-
-.dentro-quattrosc {
-    margin: 5px 0 30px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 15px;
-    display: inline-block;
 }
 
 #sezione-cinque {
