@@ -261,7 +261,7 @@ a:hover {
 }
 
 .cinque-logo {
-    padding: 15px;
+    margin: 15px auto;
     flex: 50%;
 }
 
