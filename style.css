@@ -1,0 +1,346 @@
+body {
+    font-family: EBGaramond-R, EBGaramond-I;
+    display: flex;
+    margin: 0;
+    color: #0d132d;
+}
+
+#main {
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+#box-uno-index {
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/Cicero_Denounces_Catiline_in_the_Roman_Senate_by_Cesare_Maccari.webp');
+    height: 900px;
+}
+
+#box-uno {
+    background: linear-gradient(to bottom, #0d132d 5%, #004f9f 50%);
+    height: 450px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.navb-subc {
+    display: flex;
+    text-align: center;
+}
+
+.a-navl {
+    color: white;
+}
+
+.a-navl:hover {
+    color: grey;
+}
+
+.nav-b {
+    color: grey;
+}
+
+.nav-b:hover {
+    color: white;
+}
+
+.navl1 {
+    padding: 20px 0 20px 0;
+    flex: 25%;
+    font-size: 17px;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
+}
+
+.navl2 {
+    padding: 20px 0 20px 0;
+    flex: 25%;
+    font-size: 17px;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
+}
+
+.navl3 {
+    padding: 20px 0 20px 0;
+    flex: 25%;
+    font-size: 17px;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
+}
+
+.navl4 {
+    padding: 20px 0 20px 0;
+    flex: 25%;
+    font-size: 17px;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+}
+
+.h1-cont-uno {
+    margin: 0;
+    text-align: center;
+    font-size: 3.4em;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
+}
+
+.p-cont-uno {
+    margin: 0;
+    font-size: 1.45em;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
+}
+
+.h-t-t {
+    height: 7em;
+}
+
+.h-d-t {
+    height: 7em;
+}
+
+@media (max-width: 900px) {
+
+    #box-uno-index {
+        height: 640px;
+    }
+
+    #box-uno {
+        height: 530px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .navb-subc {
+        display: block;
+    }
+
+    .nav-b {
+        font-size: 14px;
+    }
+
+    .navl1 {
+        font-size: 14px;
+    }
+
+    .navl2 {
+        font-size: 14px;
+    }
+
+    .navl3 {
+        font-size: 14px;
+    }
+
+    .navl4 {
+        font-size: 14px;
+    }
+
+    .height-c-uno {
+        height: 3.5em;
+    }
+
+    .container {
+        display: table;
+        padding: 0 17px;
+    }
+
+    .p-cont-uno {
+        font-size: 1.1em;
+    }
+
+    .h1-cont-uno {
+        font-size: 1.7em;
+    }
+
+    .h-d-t {
+        height: 6em;
+    }
+}
+
+#box-due {
+    min-height: 8vh;
+    width: auto;
+}
+
+.-cont {
+    margin: 0 auto;
+    padding: 0 30px;
+    font-size: 33px;
+    max-width: 400px;
+}
+
+@media (max-width: 900px) {
+
+    .box-due {
+        margin: 0 auto;
+    }
+
+    .-cont {
+        font-size: 25px;
+    }
+
+}
+
+.container-t {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.-cont-t {
+    margin: 0;
+    padding: 0 30px;
+    font-size: 30px;
+}
+
+@media (max-width: 900px) {
+
+    .-cont-t {
+        font-size: 25px;
+    }
+
+}
+
+#box-tre-index {
+    background-size: cover;
+    background-position: center;
+    background-image: url('assets/Columns.webp');
+}
+
+.p-cont {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.a-cont {
+    color: white;
+    font-size: 1.4em;
+}
+
+.a-cont:hover {
+    color: #d6a54c;
+}
+
+#box-quattro {
+    background-color: #f8f8f8;
+}
+
+.container-quattro {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.3em;
+}
+
+.quattro-box {
+    padding: 0 15px 0 15px;
+    flex: 33%;
+}
+
+.logo-quattro {
+    width: 11em;
+    text-align: center;
+    justify-content: center;
+}
+
+.p-logo-quattro {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.t-p-4 {
+    margin-top: 0;
+}
+
+.a-4 {
+    text-decoration: none;
+    color: #0d132d;
+}
+
+.p-4 {
+    margin: 22.1776px 0;
+}
+
+@media (max-width: 900px) {
+
+    .container-quattro {
+        flex-direction: column;
+    }
+
+    .logo-quattro {
+        width: 10em;
+    }
+
+    .p-logo-quattro {
+        font-size: 1.5em;
+    }
+
+    .t-p-4 {
+        margin-top: 16px;
+    }
+}
+
+.footer {
+    padding: 0;
+    height: 111px;
+    text-align: center;
+    color: darkslategray;
+    border-top: 1px solid #40404050;
+}
+
+/*Profili Professionali*/
+
+.logo-uno-cont {
+    margin: 7em auto 0;
+    height: 15em;
+}
+
+@media (max-width: 900px) {
+    .logo-uno-cont {
+        margin: 0 auto;
+        height: 10em;
+    }
+}
