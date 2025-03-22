@@ -131,6 +131,10 @@ a:hover {
         1px 1px 0 #0d132d;
 }
 
+.h-t-t-i {
+    height: 7em;
+}
+
 .h-t-t {
     height: 7em;
 }
@@ -185,6 +189,10 @@ a:hover {
     .container {
         display: table;
         padding: 0 17px;
+    }
+
+    .h-t-t {
+    height: 9em;
     }
 
     .p-cont-uno {
