@@ -250,6 +250,19 @@ a:hover {
     background-image: url('assets/Columns.webp');
 }
 
+.p-box-tre-index {
+    font-size: 45px;
+}
+
+@media (max-width: 900px) {
+
+    .p-box-tre-index {
+        font-size: 25px;
+    }
+    
+}
+
+
 .p-cont {
     text-align: center;
     font-size: 1.5em;
