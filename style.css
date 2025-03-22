@@ -251,7 +251,14 @@ a:hover {
 }
 
 .p-box-tre-index {
+    margin: 0;
     font-size: 45px;
+    color: white;
+    text-shadow:
+        -1px -1px 0 #0d132d,
+        1px -1px 0 #0d132d,
+        -1px 1px 0 #0d132d,
+        1px 1px 0 #0d132d;
 }
 
 @media (max-width: 900px) {
