@@ -1,11 +1,9 @@
 @font-face {
     font-family: EBGaramond-R;
     src: url(EBGaramond-VariableFont_wght.ttf) format('truetype');
-    font-display: swap;
 }
 
 @font-face {
     font-family: EBGaramond--I;
     src: url(EBGaramond-Italic-VariableFont_wght.ttf) format('truetype');
-    font-display: swap;
 }
