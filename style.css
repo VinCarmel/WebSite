@@ -134,7 +134,7 @@ header h2 {
     }
 
     header h2 { 
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
     .index .height {
@@ -574,15 +574,15 @@ footer .bottom {
 @media (max-width: 900px) {
 
     .m h2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .m p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .m li {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
 }
@@ -707,11 +707,11 @@ footer .bottom {
     }
 
     .c #box-II .h2-i {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .c #box-II .h2-ii {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
 }
