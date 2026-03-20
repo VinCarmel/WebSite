@@ -194,6 +194,10 @@ header h2 {
 @media (min-width: 840px) {
 
     .index #box-I {
+        height: auto;
+    }
+
+    .index #box-I {
         flex-direction: row;
     }
 
@@ -206,7 +210,7 @@ header h2 {
     }
 
     .index #box-I h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .index #box-I p {
@@ -312,7 +316,7 @@ footer .container {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 footer .sub-container {
@@ -345,7 +349,7 @@ footer .bottom {
     align-items: center;
     border-top: 1px solid #40404050; 
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 @media (max-width: 900px) {
@@ -353,14 +357,16 @@ footer .bottom {
     footer .container {
         margin: auto 20px 1em;
         flex-direction: column;
+        font-family: 0.9em;
     }
 
     footer .sub-container {
+        margin: auto 1em;
         height: auto;
     }
 
     footer .bottom {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
 }
