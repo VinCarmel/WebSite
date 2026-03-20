@@ -194,16 +194,16 @@ header h2 {
 @media (min-width: 840px) {
 
     .index #box-I {
-        height: auto;
-    }
-
-    .index #box-I {
         flex-direction: row;
     }
 
 }
 
 @media (max-width: 900px) {
+
+    .index #box-I {
+        height: auto;
+    }
 
     .index #box-I .container {
         margin: 0 2em;
