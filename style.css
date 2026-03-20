@@ -357,11 +357,11 @@ footer .bottom {
     footer .container {
         margin: auto 20px 1em;
         flex-direction: column;
-        font-family: 0.9em;
+        font-size: 0.9em;
     }
 
     footer .sub-container {
-        margin: auto 1em;
+        margin: auto 2em;
         height: auto;
     }
 
