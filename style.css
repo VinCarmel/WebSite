@@ -349,7 +349,7 @@ footer .bottom {
     footer .sub-container {
         margin: auto 1em;
         height: auto;
-        font-size: 0.85em;
+        font-size: 0.8em;
     }
 
     footer img {
@@ -357,7 +357,7 @@ footer .bottom {
     }
 
     footer .bottom {
-        font-size: 0.9em;
+        font-size: 0.85em;
     }
 
 }
