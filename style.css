@@ -674,13 +674,12 @@ footer .bottom span {
     }
 
     .c #box-I h2 {
+        margin: auto 1em;
         font-size: 1.3em;
-        margin: 1em 2em;
     }
 
     .c #box-I p {
         font-size: 1.1em;
-        margin: 1em 2em;
     }
 
 }
