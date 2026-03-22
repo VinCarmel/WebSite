@@ -45,6 +45,7 @@ header h1 {
         1px -1px 0 #0d132d,
         -1px 1px 0 #0d132d,
         1px 1px 0 #0d132d;
+    font-weight: 600;
 }
 
 .navbar {
@@ -114,6 +115,7 @@ header h1 {
         -1px 1px 0 #0d132d,
         1px 1px 0 #0d132d;
     text-align: center;
+    font-weight: 500;
 }
 
 header h2 {
@@ -126,6 +128,7 @@ header h2 {
         -1px 1px 0 #0d132d,
         1px 1px 0 #0d132d;
     text-align: center;
+    font-weight: 500;
 }
 
 @media (max-width: 900px) {
@@ -181,9 +184,25 @@ header h2 {
     flex-direction: column;
 }
 
-.index #box-I .container {
-    margin: 0 5em;
+.container {
+    margin: auto 5em;
     max-width: 40em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+@media (max-width: 800px) {
+
+    .index #box-I {
+        height: auto;
+    }
 }
 
 @media (min-width: 840px) {
@@ -196,12 +215,20 @@ header h2 {
 
 @media (max-width: 900px) {
 
-    .index #box-I {
-        height: auto;
-    }
-
     .index #box-I .container {
         margin: 0 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 1080px) {
+
+    h2 {
+        font-size: 1.5em;
     }
 
 }
@@ -278,12 +305,12 @@ header h2 {
 
     .index #box-II .p-ii {
         margin: 0 10px;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .index #box-II .p-iii {
         margin: 0 10px;
-        font-size: 2em;
+        font-size: 1.7em;
     }
 
 }
@@ -307,6 +334,10 @@ footer .container {
 
 footer .sub-container {
     margin: 0 auto;
+}
+
+footer .sub-container span{
+    font-weight: 600;
 }
 
 footer a {
@@ -336,7 +367,11 @@ footer .bottom {
     align-items: center;
     border-top: 1px solid #40404050; 
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.3em;
+}
+
+footer .bottom span {
+    margin: auto 1em;
 }
 
 @media (max-width: 900px) {
@@ -349,7 +384,6 @@ footer .bottom {
     footer .sub-container {
         margin: auto 1em;
         height: auto;
-        font-size: 0.8em;
     }
 
     footer img {
@@ -357,7 +391,7 @@ footer .bottom {
     }
 
     footer .bottom {
-        font-size: 0.85em;
+        font-size: 1em;
     }
 
 }
@@ -369,15 +403,14 @@ footer .bottom {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
-.p #box-I .container {
-    margin: 0 5em;
-    max-width: 40em;
+.p #box-I p {
+    margin: auto;
 }
 
 @media (min-width: 840px) {
@@ -390,7 +423,7 @@ footer .bottom {
 
 @media (max-width: 900px) {
 
-    .p #box-I .container {
+    .p .container {
         margin: 0 2em;
     }
 
@@ -401,38 +434,28 @@ footer .bottom {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-}
-
-.p #box-II .container {
-    margin: 0;
-    max-width: inherit;
-    display: flex;
-    text-align: center;
-    justify-content: center;
     flex-direction: column;
-}
-
-.p .sub-container {
-   margin: auto 7em;
+    text-align: center;
 }
 
 .p img {
-    margin: 1em;
-    width: 20em;
+    margin: 2em auto;
+    height: 30em;
     border-radius: 4em;
 }
 
-.p p {
-    margin: 1em;
-    max-width: 30em;
+@media (max-width: 840px) {
+
+    .p #box-II {
+        height: auto;
+    }
 }
 
 @media (min-width: 840px) {
 
-    .p #box-II .container {
+    .p #box-II {
         flex-direction: row;
     }
 
@@ -440,16 +463,8 @@ footer .bottom {
 
 @media (max-width: 900px) {
 
-    .p #box-II {
-        height: auto;
-    }
-
-    .p .sub-container {
-        margin: auto 3em;
-    }
-
     .p img {
-        width: 10em;
+        height: 17em;
     }
 
 }
@@ -459,18 +474,10 @@ footer .bottom {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-}
-
-.p #box-III .container {
-    margin: 0;
-    max-width: inherit;
-    display: flex;
-    text-align: center;
-    justify-content: center;
     flex-direction: column-reverse;
+    text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -482,7 +489,7 @@ footer .bottom {
 
 @media (min-width: 840px) {
 
-    .p #box-III .container {
+    .p #box-III {
         flex-direction: row;
     }
 
@@ -533,10 +540,6 @@ footer .bottom {
     margin: auto 2em;
 }
 
-.m p {
-    font-size: 1.3em;
-}
-
 .m a {
     color: #0d132d;
 }
@@ -550,6 +553,10 @@ footer .bottom {
 }
 
 @media (max-width: 900px) {
+
+    .m h1 {
+        font-size: 1.5em;
+    }
 
     .m p {
         font-size: 1em;
@@ -633,16 +640,17 @@ footer .bottom {
     align-items: center;
 }
 
-.c #box-I .container {
-    margin: 0 5em;
-    max-width: 40em;
+.c #box-I h2 {
+    font-size: 1.5em;
 }
 
 .c #box-I p {
+    font-weight: 500;
     font-size: 1.3em;
 }
 
 .c #box-I a {
+    font-weight: 600;
     color: #0d132d;
 }
 
@@ -662,10 +670,6 @@ footer .bottom {
 
     .c #box-I .container {
         margin: 0 2em;
-    }
-
-    .c #box-I p {
-        font-size: 0.95em;
     }
 
 }
@@ -693,12 +697,12 @@ footer .bottom {
 }
 
 .c #box-II .h2-i {
-    font-size: 2.3em;
+    font-size: 2.2em;
     font-weight: 500;
 }
 
 .c #box-II .h2-ii {
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: 600;
 }
 
@@ -713,7 +717,7 @@ footer .bottom {
     }
 
     .c #box-II .h2-i {
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 
     .c #box-II .h2-ii {
