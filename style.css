@@ -675,10 +675,12 @@ footer .bottom span {
 
     .c #box-I h2 {
         font-size: 1.3em;
+        margin: 1em;
     }
 
     .c #box-I p {
         font-size: 1.1em;
+        margin: 1em 2em;
     }
 
 }
