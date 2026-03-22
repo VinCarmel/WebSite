@@ -669,18 +669,14 @@ footer .bottom span {
 
 @media (max-width: 900px) {
 
-    .c #box-I .container {
-        margin: 0 2em;
-    }
-
     .c #box-I h2 {
-        margin: auto 2em;
+        margin: auto 3em;
         font-size: 1.3em;
     }
 
     .c #box-I p {
         font-size: 1.1em;
-        margin: 1em 2em;
+        margin: 1em 3em;
     }
 
 }
