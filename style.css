@@ -673,6 +673,14 @@ footer .bottom span {
         margin: 0 2em;
     }
 
+    .c #box-I h2 {
+        font-size: 1.3em;
+    }
+
+    .c #box-I p {
+        font-size: 1.1em;
+    }
+
 }
 
 .c #box-II {
