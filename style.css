@@ -388,6 +388,10 @@ footer .bottom span {
         width: 7em;
     }
 
+    footer .a-m {
+        font-size: math;
+    }
+
     footer .bottom {
         font-size: 0.8em;
     }
