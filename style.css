@@ -9,7 +9,6 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 a:hover {
@@ -170,7 +169,6 @@ header h2 {
 .scroll-indicator::after {
     content: "|";
     font-size: 2em;
-    margin-top: 5px;
 }
 
 .index #box-I {
@@ -178,10 +176,10 @@ header h2 {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
 .container {
@@ -236,14 +234,13 @@ p {
     background-image: url(assets/Columns.webp);
     background-size: cover;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .index #box-II .p-i {
     font-size: 2.5em;
-    font-weight: 500;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -271,7 +268,6 @@ p {
 .index #box-II .p-ii {
     margin-bottom: 0;
     font-size: 2.3em;
-    font-weight: 500;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -348,10 +344,6 @@ footer img {
 
 footer h2 {
     margin: 0;
-}
-
-footer p {
-    font-weight: 500;
 }
 
 footer .bottom {
@@ -513,9 +505,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m #box-I-iii {
@@ -523,22 +515,25 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m .container {
     margin: 0;
     max-width: 70em;
     display: flex;
-    text-align: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .m .sub-container {
     margin: auto 2em;
+}
+
+.m .sub-container h1 {
+    font-weight: 600;
 }
 
 .m a {
@@ -574,9 +569,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m #box-II-ii {
@@ -584,9 +579,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m #box-II-iii {
@@ -594,9 +589,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m #box-III-i {
@@ -604,9 +599,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m #box-III-ii {
@@ -614,9 +609,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .m #box-III-iii {
@@ -624,9 +619,9 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 /*CONTATTI*/
@@ -636,9 +631,10 @@ footer .bottom span {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .c #box-I h2 {
@@ -646,7 +642,6 @@ footer .bottom span {
 }
 
 .c #box-I p {
-    font-weight: 500;
     font-size: 1.3em;
 }
 
@@ -659,10 +654,10 @@ footer .bottom span {
     color: grey;
 }
 
-@media (max-width: 1180px) {
+@media (min-width: 840px) {
 
     .c #box-I {
-        height: auto;
+        flex-direction: row;
     }
 
 }
@@ -680,21 +675,28 @@ footer .bottom span {
 
 }
 
+@media (max-width: 1180px) {
+
+    .c #box-I {
+        height: auto;
+    }
+
+}
+
 .c #box-II {
     background-color: #cfc5c7;
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .c #box-II .container {
     margin: auto;
     max-width: none;
     display: flex;
-    text-align: center;
     justify-content: center;
 }
 
@@ -709,7 +711,6 @@ footer .bottom span {
 
 .c #box-II .h2-ii {
     font-size: 2.3em;
-    font-weight: 600;
 }
 
 @media (max-width: 900px) {
