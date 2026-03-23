@@ -198,6 +198,13 @@ p {
     font-size: 1.2em;
 }
 
+@media (max-width: 800px) {
+
+    .index #box-I {
+        height: auto;
+    }
+}
+
 @media (min-width: 840px) {
 
     .index #box-I {
