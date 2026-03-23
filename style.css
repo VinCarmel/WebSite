@@ -195,7 +195,7 @@ h2 {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 @media (max-width: 800px) {
@@ -351,6 +351,7 @@ footer h2 {
 }
 
 footer p {
+    margin: 1em 2em;
     font-weight: 500;
 }
 
@@ -504,6 +505,10 @@ footer .bottom span {
     align-items: center;
 }
 
+.m p {
+    font-size: 1.3em;
+}
+
 .m #box-I-ii {
     background-color: #ebe9e7;
     width: 100%;
@@ -655,7 +660,7 @@ footer .bottom span {
     color: grey;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 1180px) {
 
     .c #box-I {
         height: auto;
