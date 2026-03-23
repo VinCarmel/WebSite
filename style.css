@@ -17,9 +17,7 @@ a:hover {
 
 .index header {
     width: 100%;
-    height: 100dvh;
-    overflow: auto;
-    box-sizing: border-box;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,9 +27,7 @@ a:hover {
 
 header {
     width: 100%;
-    height: 100dvh;
-    overflow: auto;
-    box-sizing: border-box;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
