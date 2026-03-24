@@ -37,7 +37,7 @@ header {
 header h1 {
     margin: 0;
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -69,6 +69,7 @@ header h1 {
         1px -1px 0 #0d132d,
         -1px 1px 0 #0d132d,
         1px 1px 0 #0d132d;
+    font-size: 0.9em;
 }
 
 .navb:hover {
@@ -106,7 +107,7 @@ header h1 {
 
 .index header h2 {
     margin: auto 2em;
-    font-size: 1.45em;
+    font-size: 1.25em;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -119,7 +120,7 @@ header h1 {
 
 header h2 {
     margin: 0 2em;
-    font-size: 3.5em;
+    font-size: 2.7em;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -164,6 +165,7 @@ header h2 {
         1px 1px 0 #0d132d;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 0.8em;
 }
 
 .scroll-indicator::after {
@@ -186,16 +188,12 @@ header h2 {
 
 .container {
     margin: auto 5em;
-    max-width: 40em;
+    max-width: 30em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
-}
-
-p {
-    font-size: 1.2em;
 }
 
 @media (max-width: 680px) {
@@ -220,14 +218,6 @@ p {
         margin: 0 2em;
     }
 
-    h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
 }
 
 .index #box-II {
@@ -243,7 +233,7 @@ p {
 }
 
 .index #box-II .p-i {
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -270,7 +260,7 @@ p {
 
 .index #box-II .p-ii {
     margin-bottom: 0;
-    font-size: 2.3em;
+    font-size: 2em;
     color: white;
     text-shadow:
         -1px -1px 0 #0d132d,
@@ -281,7 +271,7 @@ p {
 
 .index #box-II .p-iii {
     margin-top: 0;
-    font-size: 2.7em;
+    font-size: 2.2em;
     font-weight: 600;
     color: white;
     text-shadow:
@@ -342,7 +332,7 @@ footer a {
 
 footer img {
     margin: 0;
-    width: 10em;
+    width: 8em;
 }
 
 footer h2 {
@@ -358,7 +348,6 @@ footer .bottom {
     align-items: center;
     border-top: 1px solid #40404050; 
     text-align: center;
-    font-size: 1.3em;
 }
 
 footer .bottom span {
@@ -378,12 +367,12 @@ footer .bottom span {
         font-size: 0.8em;
     }
 
-    footer img {
-        width: 7em;
+    footer .bottom span {
+        font-size: 0.8em;
     }
 
-    footer .bottom {
-        font-size: 0.8em;
+    footer img {
+        width: 7em;
     }
 
 }
@@ -511,8 +500,29 @@ footer .bottom span {
     align-items: center;
 }
 
-.m p {
-    font-size: 1.3em;
+.m .container {
+    margin: 0;
+    max-width: 60em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.m .sub-container {
+    margin: auto 2em;
+}
+
+.m .sub-container h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.m a {
+    color: #0d132d;
+}
+
+.m a:hover {
+    color: grey;
 }
 
 .m #box-I-ii {
@@ -528,55 +538,17 @@ footer .bottom span {
 .m #box-I-iii {
     background-color: #ebe9e7;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.m .container {
-    margin: 0;
-    max-width: 70em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.m .sub-container {
-    margin: auto 2em;
-}
-
-.m .sub-container h1 {
-    font-weight: 600;
-}
-
-.m a {
-    color: #0d132d;
-}
-
-.m a:hover {
-    color: grey;
-}
-
-.m li {
-    font-size: 1.3em;
-}
-
-@media (max-width: 900px) {
-
-    .m h1 {
-        font-size: 1.5em;
-    }
-
-    .m p {
-        font-size: 1em;
-    }
-
-    .m li {
-        font-size: 1em;
-    }
-
+.m #box-I-iii .container {
+    max-height: 100%;
+    overflow: auto;
+    display: block;
 }
 
 .m #box-II-i {
@@ -592,21 +564,33 @@ footer .bottom span {
 .m #box-II-ii {
     background-color: #cfc5c7;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
+.m #box-II-ii .container {
+    max-height: 100%;
+    overflow: auto;
+    display: block;
+}
+
 .m #box-II-iii {
     background-color: #cfc5c7;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.m #box-II-iii .container {
+    max-height: 100%;
+    overflow: auto;
+    display: block;
 }
 
 .m #box-III-i {
@@ -632,11 +616,17 @@ footer .bottom span {
 .m #box-III-iii {
     background-color: #d3bdb5;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.m #box-III-iii .container {
+    max-height: 100%;
+    overflow: auto;
+    display: block;
 }
 
 /*CONTATTI*/
@@ -654,11 +644,7 @@ footer .bottom span {
 }
 
 .c #box-I h2 {
-    font-size: 1.5em;
-}
-
-.c #box-I p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .c #box-I a {
@@ -685,19 +671,6 @@ footer .bottom span {
 
 }
 
-@media (max-width: 900px) {
-
-    .c #box-I h2 {
-        margin: auto 1em;
-        font-size: 1.3em;
-    }
-
-    .c #box-I p {
-        font-size: 1.1em;
-    }
-
-}
-
 .c #box-II {
     background-color: #cfc5c7;
     width: 100%;
@@ -716,16 +689,16 @@ footer .bottom span {
 }
 
 .c #box-II .sub-container {
-    margin: auto 7em;
+    margin: auto 5em;
 }
 
 .c #box-II .h2-i {
-    font-size: 2.2em;
+    font-size: 1.7em;
     font-weight: 500;
 }
 
 .c #box-II .h2-ii {
-    font-size: 2.3em;
+    font-size: 1.8em;
 }
 
 @media (max-width: 900px) {
